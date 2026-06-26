@@ -57,7 +57,7 @@ A collaborative FPGA project implementing a **real-time speech enhancement pipel
 
 ### STFT FPGA Resource Utilization
 ![Utilization](STFTCNNVoiceEnhancement/STFTPipeline-Flow-Summary.rpt)
-![Utilization](STFTCNNVoiceEnhancement/STFTPipeline-Power-Summary.rpt)
+![Power Utilization](STFTCNNVoiceEnhancement/STFTPipeline-Power-Summary.rpt)
 
 ### 2. Useless Box with Personality  
 A playful mechanical/electrical project that uses **PWM motor control** and **limit switches** to create a box that “fights back” when interacted with.  
