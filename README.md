@@ -1,6 +1,6 @@
 # Electrical Engineering Project Portfolio  
 
-This repository highlights selected hands-on projects I have built as part of my coursework and independent exploration in **electrical engineering, embedded systems, and hardware design**. Each project folder contains a more detailed README with design notes, code explanations, and implementation details.  
+This repository highlights selected hands-on projects I have built or contributed to as part of my coursework and independent exploration in **electrical engineering, embedded systems, and hardware design**. Each project folder contains a more detailed README with design notes, code explanations, and implementation details.  
 
 # Projects  
 
@@ -12,9 +12,9 @@ A collaborative FPGA project implementing a **real-time speech enhancement pipel
 
 - **Core idea:** Implement a real-time speech enhancement pipeline using FPGA acceleration and a quantized CNN.
 - **Target platform:** Terasic DE2-115 FPGA
-- **Performance:** Processed 1.03 s audio segments in **171 µs at 50 MHz** (>6000× real-time throughput).
+- **Performance:** Processed 1.03 s audio segments in 171 µs at 50 MHz in RTL simulation/synthesis benchmarking (>6000× real-time throughput).
 - **Team project:** Developed collaboratively with one teammate.
-
+[Project Folder](./STFTCNNVoiceEnhancement)
 ### My Contributions
 
 - Designed and implemented the RTL for the spectral processing pipeline, including:
@@ -43,9 +43,10 @@ A collaborative FPGA project implementing a **real-time speech enhancement pipel
 - Fixed-Point Arithmetic
 - Performance Optimization
 - Git Collaboration
+- Python/SciPy (for golden-model verification)
 
 ## Project Gallery
-
+The figures below show the system architecture, STFT verification, RTL simulation, and FPGA resource/power utilization.
 ### System Architecture
 ![Pipeline](STFTCNNVoiceEnhancement/Architecture.PNG)
 
