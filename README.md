@@ -47,10 +47,10 @@ A collaborative FPGA project implementing a **real-time speech enhancement pipel
 ## Project Gallery
 
 ### System Architecture
-![Pipeline](images/pipeline.png)
+![Pipeline](STFTCNNVoiceEnhancement/Architecture.png)
 
 ### STFT Verification
-![STFT](images/stft_verification.png)
+![STFT](STFTCNNVoiceEnhancement/STFT.png)
 
 ### RTL Simulation
 ![Waveform](images/questa.png)
