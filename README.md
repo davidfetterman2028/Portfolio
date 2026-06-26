@@ -25,7 +25,7 @@ A collaborative FPGA project implementing a **real-time speech enhancement pipel
   - Inverse STFT
 - Built a Python/NumPy golden-model verification framework to compare RTL outputs against floating-point reference implementations.
 - Developed automated benchmarking and error-analysis scripts using element-wise comparisons and RMSE metrics.
-- Performed synthesis and timing analysis to evaluate FPGA performance and resource utilization.
+- Performed synthesis, timing analysis, and power analysis to evaluate FPGA performance and resource utilization.
 
 ### Collaborative Components
 
