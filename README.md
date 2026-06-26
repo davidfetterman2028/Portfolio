@@ -2,9 +2,9 @@
 
 This repository highlights selected hands-on projects I have built as part of my coursework and independent exploration in **electrical engineering, embedded systems, and hardware design**. Each project folder contains a more detailed README with design notes, code explanations, and implementation details.  
 
-## Projects  
+# Projects  
 
-# FPGA Speech Enhancement Accelerator
+## FPGA Speech Enhancement Accelerator
 
 A collaborative FPGA project implementing a **real-time speech enhancement pipeline** for hearing-aid applications. Audio is transformed into the frequency domain using an STFT, processed by a quantized CNN for denoising, and reconstructed using an inverse STFT. The design targets **low-latency, low-power** operation on FPGA hardware.
 
@@ -15,7 +15,7 @@ A collaborative FPGA project implementing a **real-time speech enhancement pipel
 - **Performance:** Processed 1.03 s audio segments in **171 µs at 50 MHz** (>6000× real-time throughput).
 - **Team project:** Developed collaboratively with one teammate.
 
-## My Contributions
+### My Contributions
 
 - Designed and implemented the RTL for the spectral processing pipeline, including:
   - STFT
@@ -27,14 +27,14 @@ A collaborative FPGA project implementing a **real-time speech enhancement pipel
 - Developed automated benchmarking and error-analysis scripts using element-wise comparisons and RMSE metrics.
 - Performed synthesis and timing analysis to evaluate FPGA performance and resource utilization.
 
-## Collaborative Components
+### Collaborative Components
 
 - CNN architecture and training
 - CNN hardware implementation
 - End-to-end system integration
 - Documentation and project planning
 
-## Skills Demonstrated
+### Skills Demonstrated
 
 - FPGA Design (Verilog/SystemVerilog)
 - Digital Signal Processing
