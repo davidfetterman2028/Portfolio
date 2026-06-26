@@ -53,7 +53,7 @@ A collaborative FPGA project implementing a **real-time speech enhancement pipel
 ![STFT](STFTCNNVoiceEnhancement/STFT.png)
 
 ### RTL Simulation
-![Waveform](images/questa.png)
+![Waveform](images/Waveform.png)
 
 ### STFT FPGA Resource Utilization
 ![Utilization](images/resources.png)
